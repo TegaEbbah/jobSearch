@@ -1,0 +1,302 @@
+.companyLogo {
+    width: 10%;
+}
+
+.jobContainer {
+    margin-left: 4rem;
+    margin-top: 4rem;
+    width: 80%;
+
+
+    padding: 3rem;
+}
+
+
+
+.jobContainer:hover {
+    box-shadow: 8px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -webkit-box-shadow: 8px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -moz-box-shadow: 8px 5px 28px -4px rgba(128, 128, 128, 0.75);
+
+
+    /* border: 1px solid #0CAA41; */
+    border: 1px solid #858C94;
+    border-radius: 5px;
+
+}
+
+
+
+.logoContainer {
+    border: 1px solid black;
+    width: 20%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.logoSection {
+    display: flex;
+}
+
+.companyName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'poppins';
+
+
+}
+
+.titleSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+
+.jobTitle {
+    font-size: 2rem;
+    font-family: 'poppins';
+    margin: 0;
+
+}
+
+.linkToCompany {
+    /* background-color: #0CAA41; */
+    background-color: black;
+    color: #fff;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    transition: 0.5s ease;
+    border: none;
+    border-radius: 10px;
+    margin: 0;
+
+}
+
+.linkToCompany a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+
+.linkToCompany a:hover {
+    color: #fff;
+}
+
+.linkToCompany:hover {
+    background-color: #0CAA41;
+    color: white;
+}
+
+
+.jobLocation {
+    font-size: 0.8rem;
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+    color: #b19c9c;
+    gap: 0.5rem;
+
+}
+
+
+.heading {
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: 'poppins';
+}
+
+
+.jobDescription {
+    font-size: 1rem;
+    font-family: 'poppins';
+
+}
+
+
+.salaryHeader {
+    font-family: 'poppins';
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.estimate {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'poppins';
+    font-size: 0.8rem;
+    color: #b19c9c;
+    gap: 0.5rem;
+
+}
+
+
+.salarySection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.salary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.greenSalary {
+    color: #0CAA41;
+    font-family: 'poppins';
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.blackSalary {
+    color: black;
+    font-size: 0.9rem;
+    font-family: 'poppins';
+}
+
+.visualSalarySection {
+    width: 60%;
+    margin-top: 1.5rem;
+}
+
+.visualSalary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+
+.salaryBar {
+    background-color: #0CAA41;
+    color: #0CAA41;
+    width: 100%;
+}
+
+.salaries {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.salaryAmount {
+    font-family: 'poppins';
+    font-size: 1rem;
+    color: #0CAA41;
+}
+
+
+.explanation {
+    font-family: 'poppins';
+    font-size: 1rem;
+}
+
+.overview {
+    font-family: 'poppins';
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.listContainers {
+    display: flex;
+    margin-left: 0;
+}
+
+.listContainers ul {
+    list-style-type: none;
+    /* padding-left: 0; */
+    margin-left: 0;
+}
+
+.listContainers ul li {
+    margin-bottom: 1rem;
+    font-family: 'poppins';
+    margin-left: 0;
+}
+
+
+.firstList {
+    padding-left: 0;
+}
+
+
+@media screen and (max-width: 576px) {
+    nav {
+        display: none;
+    }
+
+
+    .listContainers {
+        flex-direction: column;
+    }
+
+    .companyName {
+        font-size: 1rem;
+    }
+
+
+
+
+    .jobTitle {
+        font-size: 1rem;
+
+    }
+
+
+    .jobContainer {
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+
+    .salarySection {
+        flex-direction: column;
+    }
+
+
+
+
+
+    .visualSalarySection {
+        width: 100%;
+
+    }
+
+
+
+    .linkToCompany {
+        font-size: 0.5rem;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}

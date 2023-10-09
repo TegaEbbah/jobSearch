@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: o;
+
+}
+
+h1 {
+    font-family: 'Sofia Sans Condensed';
+    color: #0CAA41;
+    margin: 0;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 5rem;
+    /* border: 1px solid black; */
+    position: relative;
+    border-bottom: 1px solid #858C94;
+}
+
+
+
+header h1,
+header a {
+    font-family: 'Sofia Sans Condensed';
+    color: #0CAA41;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+
+
+header button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+
+}
+
+header button p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+.icon-true {
+    /* transform: rotateZ(180deg); */
+    transform: scale(1.1);
+
+}
+
+.dropdown {
+    position: absolute;
+    right: 36px;
+    top: 90px;
+    transition: 0.5s ease;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-false {
+    display: none;
+}
+
+.dropdown-true {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding: 16px;
+    box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -webkit-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -moz-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+
+}
+
+.dropdown a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'poppins';
+    color: black;
+}
+
+.dropdown a:last-child {
+    margin-bottom: 0;
+}
+
+main {
+    min-height: calc(100vh - 120px);
+}
+
+
+
+
+nav ul {
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 2rem;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav {
+    /* border: 1px solid black; */
+    height: 100;
+    margin: 0;
+}
+
+nav ul li {
+    font-family: 'poppins';
+    /* border: 1px solid black; */
+    height: 100%;
+    margin: 0;
+    padding: 1rem 0;
+    transition: 0.5s ease;
+    position: relative;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    font-weight: 700;
+    border-bottom: 2px solid #858C94;
+}
+
+.hoverButtonHyperlink {
+    text-decoration: none;
+    color: black;
+}
+
+
+.active {
+    font-weight: 700;
+    border-bottom: 2px solid #858C94;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    header {
+        padding: 8px 16px;
+        height: 80px;
+    }
+
+    header h1,
+    header a {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .dropdown {
+        right: 6px;
+        top: 70px;
+    }
+
+    main {
+        min-height: calc(100vh - 80px);
+    }
+}

@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: o;
+
+}
+
+
+h1 {
+    font-family: 'Sofia Sans Condensed';
+    color: #0CAA41;
+    margin: 0;
+
+}
+
+
+.signIn {
+    font-family: 'poppins';
+    margin: 0;
+    font-size: 1rem;
+    padding: 0.4rem 1.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+
+
+header button {
+    transition: 0.5s ease;
+}
+
+header button:hover {
+    background-color: #0CAA41;
+    cursor: pointer;
+}
+
+
+
+.signIn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 5rem;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid #858C94;
+}
+
+
+@media screen and (max-width: 576px) {
+    nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .signIn {
+        font-size: 0.8rem;
+        padding: 0.2rem 0.5rem;
+    }
+
+
+
+    header {
+        padding: 0 1rem;
+    }
+
+
+
+
+}

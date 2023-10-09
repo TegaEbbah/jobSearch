@@ -1,0 +1,167 @@
+h2 {
+    font-family: 'poppins';
+    text-align: center;
+    color: #0CAA41;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.imgContainer {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #858C94;
+    padding-bottom: 3rem;
+
+}
+
+
+.landingImg {
+    width: 33.3%;
+}
+
+.getAhead {
+    font-family: 'poppins';
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.text1 {
+    font-family: 'poppins';
+    font-size: 1rem;
+    /* font-weight: 500; */
+    text-align: center;
+}
+
+.text2 {
+    font-family: 'poppins';
+    font-size: 1rem;
+    /* font-weight: 500; */
+}
+
+
+.benefitIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+
+.biggerUl {
+    display: flex;
+    gap: 8rem;
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.smallerUls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+
+}
+
+.biggerUl li ul {
+    list-style-type: none;
+}
+
+.circle {
+    border: 3px solid black;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+
+.hoverImg {
+    width: 50%;
+}
+
+
+nav ul li .tooltip {
+    position: absolute;
+    top: 3.6rem;
+    left: 0;
+    background: #fff;
+    width: 40rem;
+    height: 19rem;
+    padding: 1rem;
+    /* border-radius: 50px; */
+    /* font-size: 0.8rem; */
+    /* letter-spacing: 3px; */
+    color: black;
+    font-family: 'poppins';
+    font-weight: 400;
+    display: none;
+
+    border: 1px solid #858C94;
+
+
+}
+
+
+nav ul li .tooltip ::before {
+    content: "";
+    position: absolute;
+    transform: translate(-50%);
+    top: 0;
+    left: 0;
+    border-top: 8px solid #fff;
+    /* border-bottom: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent; */
+
+}
+
+.hoverText {
+    width: 50%;
+}
+
+nav ul li:hover .tooltip {
+    display: block;
+    display: flex;
+}
+
+.hoverHead {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.hoverBody {
+    font-size: 16px;
+}
+
+.hoverButton {
+    padding: 1rem;
+    margin-top: 1rem;
+    font-family: 'poppins';
+    background-color: #fff;
+    font-weight: 700;
+    border: 1px solid #858C94;
+    border-radius: 7px;
+}
+
+.hoverButton:hover {
+    color: #fff;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .biggerUl {
+        flex-direction: column;
+    }
+
+
+    .footerInfo {
+        flex-direction: column;
+    }
+
+
+
+}
